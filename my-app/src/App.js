@@ -7,10 +7,11 @@ function App() {
         <div class="header">
           <div class="container">
             <div class="header__logo">
-              <img width="38" src="./img/pizza-logo.svg" alt="Pizza logo" />
+              <img width="150" src="./img/logo.png" alt="Pizza logo" />
               <div>
                 <h1>Johnston Pizza</h1>
                 <p>The Best Pizza in Jersey City</p>
+                <p>by Anastasiia Soktoeva</p>
               </div>
             </div>
             <div class="header__cart">
