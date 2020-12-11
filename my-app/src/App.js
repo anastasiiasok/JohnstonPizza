@@ -61,7 +61,7 @@ function App() {
                   <li>Vegetarian</li>
                   <li>Grilled</li>
                   <li>Spicy</li>
-                  <li>Calzone</li>
+                  <li>Calzone special</li>
                 </ul>
               </div>
               <div class="sort">
