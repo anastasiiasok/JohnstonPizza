@@ -3,10 +3,10 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div class="wrapper">
-        <div class="header">
-          <div class="container">
-            <div class="header__logo">
+      <div className="wrapper">
+        <div className="header">
+          <div className="container">
+            <div className="header__logo">
               <img width="150" src="./img/logo.png" alt="Pizza logo" />
               <div>
                 <h1>Johnston Pizza</h1>
@@ -14,10 +14,10 @@ function App() {
                 <p>by Anastasiia Soktoeva</p>
               </div>
             </div>
-            <div class="header__cart">
-              <a href="/cart.html" class="button button--cart">
+            <div className="header__cart">
+              <a href="/cart.html" className="button button--cart">
                 <span>from $7.00</span>
-                <div class="button__delimiter"></div>
+                <div className="button__delimiter"></div>
                 <svg
                   width="18"
                   height="18"
@@ -52,12 +52,12 @@ function App() {
             </div>
           </div>
         </div>
-        <div class="content">
-          <div class="container">
-            <div class="content__top">
-              <div class="categories">
+        <div className="content">
+          <div className="container">
+            <div className="content__top">
+              <div className="categories">
                 <ul>
-                  <li class="active">All Pizzas</li>
+                  <li className="active">All Pizzas</li>
                   <li>Meat</li>
                   <li>Vegetarian</li>
                   <li>Grilled</li>
@@ -65,8 +65,8 @@ function App() {
                   <li>Calzone special</li>
                 </ul>
               </div>
-              <div class="sort">
-                <div class="sort__label">
+              <div className="sort">
+                <div className="sort__label">
                   <svg
                     width="10"
                     height="6"
@@ -82,38 +82,38 @@ function App() {
                   <b>Sort by:</b>
                   <span>popular</span>
                 </div>
-                <div class="sort__popup">
+                <div className="sort__popup">
                   <ul>
-                    <li class="active">popular</li>
+                    <li className="active">popular</li>
                     <li>price</li>
                     <li>name</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <h2 class="content__title">All Pizza</h2>
-            <div class="content__items">
-              <div class="pizza-block">
+            <h2 className="content__title">All Pizza</h2>
+            <div className="content__items">
+              <div className="pizza-block">
                 <img
-                  class="pizza-block__image"
+                  className="pizza-block__image"
                   src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
                   alt="Pizza"
                 />
-                <h4 class="pizza-block__title">Chicken BBQ</h4>
-                <div class="pizza-block__selector">
+                <h4 className="pizza-block__title">Chicken BBQ</h4>
+                <div className="pizza-block__selector">
                   <ul>
-                    <li class="active">thin</li>
+                    <li className="active">thin</li>
                     <li>traditional</li>
                   </ul>
                   <ul>
-                    <li class="active">26 cm </li>
+                    <li className="active">26 cm </li>
                     <li>30 cm</li>
                     <li>40 cm</li>
                   </ul>
                 </div>
-                <div class="pizza-block__bottom">
-                  <div class="pizza-block__price">from $ 8.00</div>
-                  <div class="button button--outline button--add">
+                <div className="pizza-block__bottom">
+                  <div className="pizza-block__price">from $ 8.00</div>
+                  <div className="button button--outline button--add">
                     <svg
                       width="12"
                       height="12"
@@ -131,27 +131,27 @@ function App() {
                   </div>
                 </div>
               </div>{" "}
-              <div class="pizza-block">
+              <div className="pizza-block">
                 <img
-                  class="pizza-block__image"
+                  className="pizza-block__image"
                   src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
                   alt="Pizza"
                 />
-                <h4 class="pizza-block__title">Supreme</h4>
-                <div class="pizza-block__selector">
+                <h4 className="pizza-block__title">Supreme</h4>
+                <div className="pizza-block__selector">
                   <ul>
-                    <li class="active">thin</li>
+                    <li className="active">thin</li>
                     <li>traditional</li>
                   </ul>
                   <ul>
-                    <li class="active">26 cm</li>
+                    <li className="active">26 cm</li>
                     <li>30 cm</li>
                     <li>40 cm</li>
                   </ul>
                 </div>
-                <div class="pizza-block__bottom">
-                  <div class="pizza-block__price">from $ 9.00</div>
-                  <div class="button button--outline button--add">
+                <div className="pizza-block__bottom">
+                  <div className="pizza-block__price">from $ 9.00</div>
+                  <div className="button button--outline button--add">
                     <svg
                       width="12"
                       height="12"
@@ -169,27 +169,27 @@ function App() {
                   </div>
                 </div>
               </div>{" "}
-              <div class="pizza-block">
+              <div className="pizza-block">
                 <img
-                  class="pizza-block__image"
+                  className="pizza-block__image"
                   src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
                   alt="Pizza"
                 />
-                <h4 class="pizza-block__title">Hawaiian</h4>
-                <div class="pizza-block__selector">
+                <h4 className="pizza-block__title">Hawaiian</h4>
+                <div className="pizza-block__selector">
                   <ul>
-                    <li class="active">thin</li>
+                    <li className="active">thin</li>
                     <li>traditional</li>
                   </ul>
                   <ul>
-                    <li class="active">26 cm</li>
+                    <li className="active">26 cm</li>
                     <li>30 cm</li>
                     <li>40 cm</li>
                   </ul>
                 </div>
-                <div class="pizza-block__bottom">
-                  <div class="pizza-block__price">from $ 11.00</div>
-                  <div class="button button--outline button--add">
+                <div className="pizza-block__bottom">
+                  <div className="pizza-block__price">from $ 11.00</div>
+                  <div className="button button--outline button--add">
                     <svg
                       width="12"
                       height="12"
@@ -207,27 +207,27 @@ function App() {
                   </div>
                 </div>
               </div>{" "}
-              <div class="pizza-block">
+              <div className="pizza-block">
                 <img
-                  class="pizza-block__image"
+                  className="pizza-block__image"
                   src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
                   alt="Pizza"
                 />
-                <h4 class="pizza-block__title">Spinach Feta</h4>
-                <div class="pizza-block__selector">
+                <h4 className="pizza-block__title">Spinach Feta</h4>
+                <div className="pizza-block__selector">
                   <ul>
-                    <li class="active">thin</li>
+                    <li className="active">thin</li>
                     <li>traditional</li>
                   </ul>
                   <ul>
-                    <li class="active">26 cm</li>
+                    <li className="active">26 cm</li>
                     <li>30 cm</li>
                     <li>40 cm</li>
                   </ul>
                 </div>
-                <div class="pizza-block__bottom">
-                  <div class="pizza-block__price">from $ 11.99</div>
-                  <div class="button button--outline button--add">
+                <div className="pizza-block__bottom">
+                  <div className="pizza-block__price">from $ 11.99</div>
+                  <div className="button button--outline button--add">
                     <svg
                       width="12"
                       height="12"
@@ -245,27 +245,27 @@ function App() {
                   </div>
                 </div>
               </div>{" "}
-              <div class="pizza-block">
+              <div className="pizza-block">
                 <img
-                  class="pizza-block__image"
+                  className="pizza-block__image"
                   src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
                   alt="Pizza"
                 />
-                <h4 class="pizza-block__title">Buffalo Chicken</h4>
-                <div class="pizza-block__selector">
+                <h4 className="pizza-block__title">Buffalo Chicken</h4>
+                <div className="pizza-block__selector">
                   <ul>
-                    <li class="active">thin</li>
+                    <li className="active">thin</li>
                     <li>traditional</li>
                   </ul>
                   <ul>
-                    <li class="active">26 cm</li>
+                    <li className="active">26 cm</li>
                     <li>30 cm</li>
                     <li>40 cm</li>
                   </ul>
                 </div>
-                <div class="pizza-block__bottom">
-                  <div class="pizza-block__price">from $ 9.99</div>
-                  <div class="button button--outline button--add">
+                <div className="pizza-block__bottom">
+                  <div className="pizza-block__price">from $ 9.99</div>
+                  <div className="button button--outline button--add">
                     <svg
                       width="12"
                       height="12"
@@ -283,27 +283,27 @@ function App() {
                   </div>
                 </div>
               </div>{" "}
-              <div class="pizza-block">
+              <div className="pizza-block">
                 <img
-                  class="pizza-block__image"
+                  className="pizza-block__image"
                   src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
                   alt="Pizza"
                 />
-                <h4 class="pizza-block__title">Pepperoni</h4>
-                <div class="pizza-block__selector">
+                <h4 className="pizza-block__title">Pepperoni</h4>
+                <div className="pizza-block__selector">
                   <ul>
-                    <li class="active">thin</li>
+                    <li className="active">thin</li>
                     <li>traditional</li>
                   </ul>
                   <ul>
-                    <li class="active">26 cm</li>
+                    <li className="active">26 cm</li>
                     <li>30 cm</li>
                     <li>40 cm</li>
                   </ul>
                 </div>
-                <div class="pizza-block__bottom">
-                  <div class="pizza-block__price">from $ 10.99</div>
-                  <div class="button button--outline button--add">
+                <div className="pizza-block__bottom">
+                  <div className="pizza-block__price">from $ 10.99</div>
+                  <div className="button button--outline button--add">
                     <svg
                       width="12"
                       height="12"
@@ -321,26 +321,26 @@ function App() {
                   </div>
                 </div>
               </div>{" "}
-              <div class="pizza-block">
+              <div className="pizza-block">
                 <img
-                  class="pizza-block__image"
+                  className="pizza-block__image"
                   src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
                   alt="Pizza"
                 />
-                <h4 class="pizza-block__title">Monitor Pizza</h4>
-                <div class="pizza-block__selector">
+                <h4 className="pizza-block__title">Monitor Pizza</h4>
+                <div className="pizza-block__selector">
                   <ul>
-                    <li class="active">thin</li>
+                    <li className="active">thin</li>
                     <li>traditional</li>
                   </ul>
                   <ul>
-                    <li class="active">26 cm</li>
+                    <li className="active">26 cm</li>
                     <li>40 cm</li>
                   </ul>
                 </div>
-                <div class="pizza-block__bottom">
-                  <div class="pizza-block__price">from $ 12.99</div>
-                  <div class="button button--outline button--add">
+                <div className="pizza-block__bottom">
+                  <div className="pizza-block__price">from $ 12.99</div>
+                  <div className="button button--outline button--add">
                     <svg
                       width="12"
                       height="12"
@@ -358,27 +358,27 @@ function App() {
                   </div>
                 </div>
               </div>{" "}
-              <div class="pizza-block">
+              <div className="pizza-block">
                 <img
-                  class="pizza-block__image"
+                  className="pizza-block__image"
                   src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
                   alt="Pizza"
                 />
-                <h4 class="pizza-block__title">Veggie</h4>
-                <div class="pizza-block__selector">
+                <h4 className="pizza-block__title">Veggie</h4>
+                <div className="pizza-block__selector">
                   <ul>
-                    <li class="active">thin</li>
+                    <li className="active">thin</li>
                     <li>traditional</li>
                   </ul>
                   <ul>
-                    <li class="active">26 cm</li>
+                    <li className="active">26 cm</li>
                     <li>30 cm</li>
                     <li>40 cm</li>
                   </ul>
                 </div>
-                <div class="pizza-block__bottom">
-                  <div class="pizza-block__price">from $ 10.99</div>
-                  <div class="button button--outline button--add">
+                <div className="pizza-block__bottom">
+                  <div className="pizza-block__price">from $ 10.99</div>
+                  <div className="button button--outline button--add">
                     <svg
                       width="12"
                       height="12"
@@ -396,27 +396,27 @@ function App() {
                   </div>
                 </div>
               </div>{" "}
-              <div class="pizza-block">
+              <div className="pizza-block">
                 <img
-                  class="pizza-block__image"
+                  className="pizza-block__image"
                   src="https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg"
                   alt="Pizza"
                 />
-                <h4 class="pizza-block__title">Cheese</h4>
-                <div class="pizza-block__selector">
+                <h4 className="pizza-block__title">Cheese</h4>
+                <div className="pizza-block__selector">
                   <ul>
-                    <li class="active">thin</li>
+                    <li className="active">thin</li>
                     <li>traditional</li>
                   </ul>
                   <ul>
-                    <li class="active">26 cm</li>
+                    <li className="active">26 cm</li>
                     <li>30 cm</li>
                     <li>40 cm</li>
                   </ul>
                 </div>
-                <div class="pizza-block__bottom">
-                  <div class="pizza-block__price">from $ 7.99</div>
-                  <div class="button button--outline button--add">
+                <div className="pizza-block__bottom">
+                  <div className="pizza-block__price">from $ 7.99</div>
+                  <div className="button button--outline button--add">
                     <svg
                       width="12"
                       height="12"
