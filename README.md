@@ -12,6 +12,5 @@ A pizza ordering application with React. Optionally, our application will be abl
 </p>
   
 ### Technologies used: 
-* JavaScript, MongoDB Cluster, NodeJS, ExpressJS, Handlebars, Material-UI, Nodemailer, REST API
-
+JavaScript,  NodeJS, ExpressJS,  Material-UI, Sass, Nodemailer, REST API
 
