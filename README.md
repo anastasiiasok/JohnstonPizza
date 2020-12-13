@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <img width="700" height="750" src="https://github.com/anastasiiasok/JohnstonPizza/blob/main/my-app/public/pizza.png">
+  <img width="900" height="750" src="https://github.com/anastasiiasok/JohnstonPizza/blob/main/my-app/public/pizza.png">
 </p>
   
 ### Technologies used: 
