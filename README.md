@@ -8,7 +8,7 @@ A pizza ordering application with React. Optionally, our application will be abl
 
 
 <p align="center">
-  <img width="1000" height="550" src="https://github.com/anastasiiasok/JohnstonPizza/blob/main/my-app/public/pizza.png">
+  <img width="1000" height="630" src="https://github.com/anastasiiasok/JohnstonPizza/blob/main/my-app/public/pizza.png">
 </p>
   
 ### Technologies used: 
