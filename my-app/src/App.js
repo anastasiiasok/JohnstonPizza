@@ -2,10 +2,14 @@ import "./App.css";
 import Header from "./components/Header/Header";
 
 function App() {
+  const onClick = () => {
+    alert("hello");
+  };
   return (
     <>
       <div className="wrapper">
         <Header />
+
         <div className="content">
           <div className="container">
             <div className="content__top">
