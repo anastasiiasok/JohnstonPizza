@@ -1,4 +1,5 @@
 import "./App.css";
+import Categories from "./components/Categories/Categories";
 import Header from "./components/Header/Header";
 
 function App() {
@@ -13,16 +14,7 @@ function App() {
         <div className="content">
           <div className="container">
             <div className="content__top">
-              <div className="categories">
-                <ul>
-                  <li className="active">All Pizzas</li>
-                  <li>Meat</li>
-                  <li>Vegetarian</li>
-                  <li>Grilled</li>
-                  <li>Spicy</li>
-                  <li>Calzone special</li>
-                </ul>
-              </div>
+              <Categories />
               <div className="sort">
                 <div className="sort__label">
                   <svg
