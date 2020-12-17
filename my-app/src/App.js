@@ -1,6 +1,5 @@
 import "./App.css";
-import Categories from "./components/Categories/Categories";
-import Header from "./components/Header/Header";
+import { Header, Categories } from "./components";
 
 function App() {
   const onClick = () => {
@@ -14,7 +13,6 @@ function App() {
         <div className="content">
           <div className="container">
             <div className="content__top">
-              <Categories />
               <div className="sort">
                 <div className="sort__label">
                   <svg
