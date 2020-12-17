@@ -13,6 +13,15 @@ function App() {
         <div className="content">
           <div className="container">
             <div className="content__top">
+              <Categories
+                items={[
+                  "Meat",
+                  "Vegetarian",
+                  "Grilled",
+                  "Spicy",
+                  "Calzone special",
+                ]}
+              />
               <div className="sort">
                 <div className="sort__label">
                   <svg
