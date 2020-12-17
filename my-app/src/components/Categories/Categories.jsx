@@ -1,16 +1,14 @@
 import React from "react";
 
-function Categories() {
+function Categories({ items }) {
   return (
     <div>
       <div className="categories">
         <ul>
           <li className="active">All Pizzas</li>
-          <li>Meat</li>
-          <li>Vegetarian</li>
-          <li>Grilled</li>
-          <li>Spicy</li>
-          <li>Calzone special</li>
+          {items.map((name) => (
+            <li>{name}</li>
+          ))}
         </ul>
       </div>
     </div>
