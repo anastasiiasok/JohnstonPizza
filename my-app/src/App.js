@@ -2,16 +2,11 @@ import "./App.css";
 import { Header, Categories, Button } from "./components";
 
 function App() {
-  const clickPoKnopke = () => {
-    alert("Hello React!");
-  };
   return (
     <>
       <div className="wrapper">
         <Header />
 
-        <Button outline> button</Button>
-        <Button>123</Button>
         <div className="content">
           <div className="container">
             <div className="content__top">
