@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header, Categories, Button } from "./components";
+import { Header, Categories } from "./components";
 
 function App() {
   return (
