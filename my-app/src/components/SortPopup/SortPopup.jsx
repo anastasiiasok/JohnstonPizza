@@ -1,4 +1,8 @@
+import React from "react";
+
 function SortPopup() {
+  const [visiblePopup, setVisiblePopup] = React.useState(false);
+
   return (
     <div className="sort">
       <div className="sort__label">
@@ -15,15 +19,17 @@ function SortPopup() {
           />
         </svg>
         <b>Sort by:</b>
-        <span>popular</span>
+        <span onClick={() => setVisiblePopup(!visiblePopup)}>popular</span>
       </div>
-      <div className="sort__popup">
-        <ul>
-          <li className="active">popular</li>
-          <li>price</li>
-          <li>name</li>
-        </ul>
-      </div>
+      {visiblePopup && (
+        <div className="sort__popup">
+          <ul>
+            <li className="active">popular</li>
+            <li>price</li>
+            <li>name</li>
+          </ul>
+        </div>
+      )}
     </div>
   );
 }
