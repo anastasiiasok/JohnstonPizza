@@ -5,6 +5,7 @@ function SortPopup() {
   const toggleVisiblePopup = () => {
     setVisiblePopup(!visiblePopup);
   };
+
   return (
     <div className="sort">
       <div className="sort__label">
@@ -23,6 +24,7 @@ function SortPopup() {
         <b>Sort by:</b>
         <span onClick={toggleVisiblePopup}>popular</span>
       </div>
+
       {visiblePopup && (
         <div className="sort__popup">
           <ul>
