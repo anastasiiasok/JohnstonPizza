@@ -5,11 +5,10 @@ function Header() {
     <div className="header">
       <div className="container">
         <div className="header__logo">
-          <img width="150" src="./img/logo.png" alt="Pizza logo" />
+          <img width="200" src="./img/logo.png" alt="Pizza logo" />
           <div>
             <h1>Johnston Pizza</h1>
             <p>The Best Pizza in Jersey City</p>
-            <p>by Anastasiia Soktoeva</p>
           </div>
         </div>
         <div className="header__cart">
