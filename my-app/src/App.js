@@ -121,7 +121,7 @@ function App() {
                   </ul>
                 </div>
                 <div className="pizza-block__bottom">
-                  <div className="pizza-block__price">from $ 11.00</div>
+                  <div className="pizza-block__price">from $ 10.00</div>
                   <div className="button button--outline button--add">
                     <svg
                       width="12"
