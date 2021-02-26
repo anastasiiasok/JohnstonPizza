@@ -2,6 +2,7 @@ import React from "react";
 
 function SortPopup() {
   const [visiblePopup, setVisiblePopup] = React.useState(false);
+
   const toggleVisiblePopup = () => {
     setVisiblePopup(!visiblePopup);
   };
@@ -22,6 +23,7 @@ function SortPopup() {
           />
         </svg>
         <b>Sort by:</b>
+
         <span onClick={toggleVisiblePopup}>popular</span>
       </div>
 
