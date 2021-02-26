@@ -14,7 +14,7 @@ function Categories({ items, onClickItem }) {
             className={activeItem === null ? "active" : ""}
             onClick={() => onSelectItem(null)}
           >
-            All Pizzas
+            All Menu
           </li>
           {items.map((name, index) => (
             <li
