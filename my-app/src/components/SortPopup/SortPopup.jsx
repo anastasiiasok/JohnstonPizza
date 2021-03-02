@@ -7,6 +7,11 @@ function SortPopup() {
     setVisiblePopup(!visiblePopup);
   };
 
+  React.useEffect(() => {
+    document.body.addEventListener("click", () => console.log("CLICKED"));
+  }, []);
+
+
   return (
     <div className="sort">
       <div className="sort__label">
