@@ -11,6 +11,7 @@ function SortPopup() {
     document.body.addEventListener("click", () => console.log("CLICKED"));
   }, []);
 
+
   return (
     <div className="sort">
       <div className="sort__label">
