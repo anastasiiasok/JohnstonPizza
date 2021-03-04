@@ -22,7 +22,7 @@ function App() {
                   "Beverages",
                 ]}
               />
-              <SortPopup />
+              <SortPopup items={["popular", "price", "name"]} />
             </div>
             <h2 className="content__title">All Pizza</h2>
             <div className="content__items">
