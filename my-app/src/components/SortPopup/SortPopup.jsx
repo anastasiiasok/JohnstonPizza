@@ -15,6 +15,7 @@ function SortPopup() {
     console.log(sortReference.current);
   }, []);
 
+
   return (
     <div
       ref={(ref) => {
