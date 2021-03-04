@@ -2,7 +2,7 @@ import React from "react";
 
 function SortPopup() {
   const [visiblePopup, setVisiblePopup] = React.useState(false);
-  const sortRef = React.useRef();
+  const sortReference = React.useRef();
 
   const toggleVisiblePopup = () => {
     setVisiblePopup(!visiblePopup);
@@ -12,13 +12,13 @@ function SortPopup() {
   };
   React.useEffect(() => {
     document.body.addEventListener("click", handleOutsideClick);
-    console.log(sortRef.current);
+    console.log(sortReference.current);
   }, []);
 
   return (
     <div
       ref={(ref) => {
-        sortRef.current = ref;
+        sortReference.current = ref;
       }}
       className="sort"
     >
