@@ -15,7 +15,6 @@ function App() {
                 items={[
                   "Meat",
                   "Vegetarian",
-                  "Grilled",
                   "Spicy",
                   "Salads",
                   "Cheesesticks",
