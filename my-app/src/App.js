@@ -16,9 +16,9 @@ function App() {
                   "Meat",
                   "Vegetarian",
                   "Spicy",
-                  "Salads",
                   "Cheesesticks",
                   "Beverages",
+                  "Salads",
                 ]}
               />
               <SortPopup items={["popular", "price", "name"]} />
