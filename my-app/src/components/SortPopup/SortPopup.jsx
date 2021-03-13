@@ -18,6 +18,7 @@ function SortPopup({ items }) {
   const onSelectItem = (index) => {
     setActiveItem(index);
   };
+  
 
   React.useEffect(() => {
     document.body.addEventListener("click", handleOutsideClick);
