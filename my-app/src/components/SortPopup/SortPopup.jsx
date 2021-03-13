@@ -10,7 +10,6 @@ function SortPopup({ items }) {
     setVisiblePopup(!visiblePopup);
   };
   const handleOutsideClick = (e) => {
-
     if (!e.path.includes(sortReference.current)) {
       setVisiblePopup(false);
       console.log("outside");
@@ -19,15 +18,11 @@ function SortPopup({ items }) {
   const onSelectItem = (index) => {
     setActiveItem(index);
   };
-  React.useEffect(() => {
-    document.body.addEventListener("click", handleOutsideClick);
+  
 
-    console.log(e);
-  };
   React.useEffect(() => {
     document.body.addEventListener("click", handleOutsideClick);
     console.log(sortReference.current);
-
   }, []);
 
   return (
