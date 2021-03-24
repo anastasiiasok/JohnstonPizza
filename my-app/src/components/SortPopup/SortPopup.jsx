@@ -19,6 +19,7 @@ function SortPopup({ items }) {
     setActiveItem(index);
     setVisiblePopup(false);
   };
+  
 
   React.useEffect(() => {
     document.body.addEventListener("click", handleOutsideClick);
