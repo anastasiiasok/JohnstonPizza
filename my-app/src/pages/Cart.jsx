@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Link } from "react-router-dom";
 import Button from "../components/Button/Button";
 function Cart() {
@@ -136,7 +137,7 @@ function Cart() {
           </Link>
         </div>
       </div>
-    </div>
+
   );
 }
 
