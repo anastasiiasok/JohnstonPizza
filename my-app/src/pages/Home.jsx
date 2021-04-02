@@ -12,7 +12,7 @@ function Home() {
             "Meat",
             "Vegetarian",
             "Spicy",
-            "Cheesesticks",
+            "Other",
             "Beverages",
             "Salads",
           ]}
