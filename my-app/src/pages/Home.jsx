@@ -12,9 +12,9 @@ function Home() {
             "Meat",
             "Vegetarian",
             "Spicy",
-            "Other",
             "Beverages",
             "Salads",
+            "Other",
           ]}
         />
         <SortPopup items={["popular", "price", "name"]} />
