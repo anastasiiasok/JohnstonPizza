@@ -3,11 +3,5 @@ A pizza ordering application with React. This application will be able to commun
 
 ### Stack:
 
-ReactJS + hooks
-React Router
-Redux
-Redux thunk
-json-server
-Axios
-classnames
+ReactJS + hooks,React Router,Redux,Redux thunk,json-server,Axios and classnames
 
