@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Button from "../components/Button/Button";
+import CartItem from "../components/CartItem/CartItem";
 function Cart() {
   return (
     <div>
@@ -81,7 +82,7 @@ function Cart() {
             </div>
           </div>
           <div className="content__items">
-            <p>Cart Items</p>
+            <CartItem />
           </div>
           <div className="cart__bottom">
             <div className="cart__bottom-details">
