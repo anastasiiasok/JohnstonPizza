@@ -56,7 +56,7 @@ function CartItem() {
           </div>
         </div>
         <div className="cart__item-price">
-          <b>$ total price</b>
+          <b>total price</b>
         </div>
 
         <div className="cart__item-remove">
