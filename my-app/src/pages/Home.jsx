@@ -1,10 +1,13 @@
 import React from "react";
 import Header from "../components/Header/Header";
 import { Categories, SortPopup } from "../components";
+import Homeslider from "../components/Homeslider/Homeslider";
 
 function Home() {
   return (
     <div className="container">
+      <Homeslider />
+      <br></br>
       <div className="content__top">
         <Categories
           onClickItem={(name) => console.log(name)}
