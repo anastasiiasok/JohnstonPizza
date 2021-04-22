@@ -479,7 +479,6 @@ function Home() {
             </div>
           </div>
         </div>
-        <h2 className="content__title">Drinks</h2>
         <div className="content__items">
           <div className="pizza-block">
             <img
